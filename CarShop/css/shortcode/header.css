@@ -103,8 +103,6 @@ NOTE: This is Header style file. All Header related style included in this file.
     padding: 0;
     position: fixed;
     top: 0;
-    width: 100%;
-    z-index: 9;
 }
 .sticky .main-menu > nav > ul > li {padding: 0;}
 .sticky .main-menu > nav > ul > li > a {line-height: 70px;}
