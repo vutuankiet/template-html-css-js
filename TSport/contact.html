@@ -6,19 +6,16 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Shome - Shoes eCommerce Website Template"/>
     <meta name="keywords" content="footwear, shoes, modern, shop, store, ecommerce, responsive, e-commerce"/>
     <meta name="author" content="codecarnival"/>
 
-    <title>Shome - Account Register</title>
+    <title>TSport - Contact</title>
 
     <!--== Favicon ==-->
     <link rel="shortcut icon" href="assets/img/icons/logo.webp" type="image/x-icon" />
 
     <!--== Google Fonts ==-->
-    <link rel="preconnect" href="https://fonts.googleapis.com/">
-    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,600;0,700;0,800;1,400;1,500&amp;display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:200,300,300i,400,400i,500,600,700,800" rel="stylesheet">
 
     <!--== Bootstrap CSS ==-->
     <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
@@ -83,8 +80,7 @@
               <div class="header-middle-align-start">
                 <div class="header-logo-area">
                   <a href="index.html">
-                    <img class="logo-main" src="assets/img/logo.webp" width="131" height="34" alt="Logo" />
-                    <img class="logo-light" src="assets/img/logo-light.webp" width="131" height="34" alt="Logo" />
+                    <h1><span class="logo-text">T</span>Sport</h1>
                   </a>
                 </div>
               </div>
@@ -153,12 +149,12 @@
         <div class="row">
           <div class="col-12">
             <div class="page-header-content">
-              <h2 class="title" data-aos="fade-down" data-aos-duration="1000">Register</h2>
+              <h2 class="title" data-aos="fade-down" data-aos-duration="1000">Contact Us</h2>
               <nav class="breadcrumb-area" data-aos="fade-down" data-aos-duration="1200">
                 <ul class="breadcrumb">
                   <li><a href="index.html">Home</a></li>
                   <li class="breadcrumb-sep">//</li>
-                  <li>Register</li>
+                  <li>Contact Us</li>
                 </ul>
               </nav>
             </div>
@@ -168,52 +164,110 @@
     </div>
     <!--== End Page Header Area Wrapper ==-->
 
-    <!--== Start My Account Area Wrapper ==-->
-    <section class="account-area">
+    <!--== Start Contact Area Wrapper ==-->
+    <section class="contact-area contact-page-area">
       <div class="container">
-        <div class="row">
-          <div class="col-sm-8 m-auto">
-            <div class="section-title text-center">
-              <h2 class="title">Register</h2>
+        <div class="row contact-page-wrapper">
+          <div class="col-xl-9">
+            <div class="contact-form-wrap" data-aos="fade-right">
+              <div class="contact-form-title">
+                <h2 class="title">We Are Here! <br>Please Send A Quest</h2>
+              </div>
+              <!--== Start Contact Form ==-->
+              <div class="contact-form">
+                <form id="contact-form" action="https://whizthemes.com/mail-php/raju/arden/mail.php" method="POST">
+                  <div class="row row-gutter-20">
+                    <div class="col-md-6">
+                      <div class="form-group">
+                        <input class="form-control" type="text" name="con_name" placeholder="Name *">
+                      </div>
+                    </div>
+                    <div class="col-md-6">
+                      <div class="form-group">
+                        <input class="form-control" type="email" name="con_email" placeholder="Email *">
+                      </div>
+                    </div>
+                    <div class="col-12">
+                      <div class="form-group">
+                        <input class="form-control" type="text" placeholder="Subject (Optinal)">
+                      </div>
+                    </div>
+                    <div class="col-12">
+                      <div class="form-group mb--0">
+                        <textarea class="form-control" name="con_message" placeholder="Message"></textarea>
+                      </div>
+                    </div>
+                    <div class="col-12">
+                      <div class="form-group mb--0">
+                        <button class="btn-theme" type="submit">Send Message</button>
+                      </div>
+                    </div>
+                  </div>
+                </form>
+              </div>
+              <!--== End Contact Form ==-->
+
+              <!--== Message Notification ==-->
+              <div class="form-message"></div>
+              <div class="shape-group-style2">
+                <div class="shape-group-one"><img src="assets/img/shape/13.webp" width="193" height="168" alt="Image-HasTech"></div>
+                <div class="shape-group-two"><img src="assets/img/shape/15.webp" width="221" height="113" alt="Image-HasTech"></div>
+                <div class="shape-group-three"><img src="assets/img/shape/16.webp" width="129" height="147" alt="Image-HasTech"></div>
+                <div class="shape-group-four"><img src="assets/img/shape/17.webp" width="493" height="340" alt="Image-HasTech"></div>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="row">
-          <div class="col-12">
-            <div class="register-form-content">
-              <form action="#">
+          <div class="col-xl-3">
+            <div class="contact-info-wrap">
+              <div class="contact-info">
                 <div class="row">
-                  <div class="col-12">
-                    <div class="form-group">
-                      <label for="username">Username <span class="required">*</span></label>
-                      <input id="username" class="form-control" type="email">
+                  <div class="col-lg-4 col-xl-12">
+                    <div class="info-item"  data-aos="fade-left">
+                      <div class="icon">
+                        <img src="assets/img/icons/c1.webp" width="69" height="65" alt="Image-HasTech">
+                      </div>
+                      <div class="info">
+                        <h5 class="title">Address</h5>
+                        <p>Your address goes here. 123 Your Location</p>
+                      </div>
                     </div>
                   </div>
-                  <div class="col-12">
-                    <div class="form-group">
-                      <label for="email">Email address <span class="required">*</span></label>
-                      <input id="email" class="form-control" type="email">
+                  <div class="col-lg-4 col-xl-12">
+                    <div class="info-item"  data-aos="fade-left" data-aos-delay="60">
+                      <div class="icon">
+                        <img src="assets/img/icons/c2.webp" width="65" height="65" alt="Image-HasTech">
+                      </div>
+                      <div class="info">
+                        <h5 class="title">Phone No</h5>
+                        <p>
+                          <a href="#">+84 0987654321</a><br>
+                          <a href="#">+84 0987654321</a>
+                        </p>
+                      </div>
                     </div>
                   </div>
-                  <div class="col-12">
-                    <div class="form-group">
-                      <label for="password">Password <span class="required">*</span></label>
-                      <input id="password" class="form-control" type="password">
-                    </div>
-                  </div>
-                  <div class="col-12">
-                    <div class="form-group mb--0">
-                      <a class="btn-register" href="shop.html">Register</a>
+                  <div class="col-lg-4 col-xl-12">
+                    <div class="info-item"  data-aos="fade-left" data-aos-delay="120">
+                      <div class="icon">
+                        <img src="assets/img/icons/c3.webp" width="65" height="65" alt="Image-HasTech">
+                      </div>
+                      <div class="info">
+                        <h5 class="title">Email / Web</h5>
+                        <p>
+                          <a href="#">trung@gmail.com</a><br>
+                          <a href="#">trung@gmail.com</a>
+                        </p>
+                      </div>
                     </div>
                   </div>
                 </div>
-              </form>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </section>
-    <!--== End My Account Area Wrapper ==-->
+    <!--== End Contact Area Wrapper ==-->
   </main>
 
   <!--== Start Footer Area Wrapper ==-->
@@ -228,7 +282,7 @@
               <div class="about-widget-wrap">
                 <div class="widget-logo-area">
                   <a href="index.html">
-                    <img class="logo-main" src="assets/img/logo-light.webp" width="131" height="34" alt="Logo" />
+                    <h1><span class="logo-text">T</span>Sport</h1>
                   </a>
                 </div>
                 <p class="desc">Lorem ipsum dolor sit amet consl adipisi elit, sed do eiusmod templ incididunt ut labore</p>
@@ -313,7 +367,7 @@
       <div class="container pt--0 pb--0">
         <div class="row">
           <div class="col-md-7 col-lg-6">
-            <p class="copyright">© 2022 Shome. Made with <i class="fa fa-heart"></i> by <a target="_blank" href="#">Trung.</a></p>
+            <p class="copyright">© 2022 TSport. Made with <i class="fa fa-heart"></i> by <a target="_blank" href="#">Trung.</a></p>
           </div>
           <div class="col-md-5 col-lg-6">
             <div class="payment">
@@ -454,9 +508,9 @@
     <div class="offcanvas-body">
       <div class="info-items">
         <ul>
-          <li class="number"><a href="#"><i class="fa fa-phone"></i>+84 0987654321</a></li>
-          <li class="email"><a href="#"><i class="fa fa-envelope"></i>trung@gmail.com</a></li>
-          <li class="account"><a href="account-login.html"><i class="fa fa-user"></i>Account</a></li>
+          <li class="number"><i class="fa fa-phone"></i><a href="#">+84 0987654321</a></li>
+          <li class="email"><i class="fa fa-envelope"></i><a href="#">trung@gmail.com</a></li>
+          <li class="account"><i class="fa fa-user"></i><a href="account-login.html">Account</a></li>
         </ul>
       </div>
       <!-- Mobile Menu Start -->
@@ -506,6 +560,5 @@
 <script src="assets/js/custom.js"></script>
 
 </body>
-
 
 </html>
