@@ -101,6 +101,7 @@ NOTE: This is Header style file. All Header related style included in this file.
     box-shadow: 0 0 9.9px 0.1px rgba(91, 91, 91, 0.2);
     left: 0;
     padding: 0;
+    width: inherit;
     position: fixed;
     top: 0;
 }
